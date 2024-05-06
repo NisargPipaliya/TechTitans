@@ -4,6 +4,7 @@
 
 # Docker
 - [Tech with Nana](https://youtu.be/3c-iBn73dDE?si=QNNfAH6KlVlW6Yb8)
+- [What is docker?](https://aws.amazon.com/docker/)
 
 # Kubernetes
 - [Tech with Nana](https://www.youtube.com/watch?v=X48VuDVv0do)
