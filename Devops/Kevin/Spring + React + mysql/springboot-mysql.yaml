@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+  mysql:
+    image: mysql
+    container_name: mysql
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: admin
+      MYSQL_DATABASE: springbootdb
+    volumes:
+      - mysql-data:/var/lib/mysql
+    restart: unless-stopped
+  
+  springboot-mysql:
+    image: imagexyz
+    container_name: springboot-mysql
+    ports:
+      - "9090:8080"
+    depends_on:
+      - mysql
+
+volumes:
+  mysql-data:
+    driver: local
