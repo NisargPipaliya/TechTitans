@@ -16,3 +16,7 @@
 ## Install node packages and run
     npm i 
     node server.js
+
+
+## Image name
+docker_domain_registery/image_name:tag
