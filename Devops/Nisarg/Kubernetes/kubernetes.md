@@ -1,6 +1,9 @@
 ## Install minikube and kubectl
+- docker context use default
 - winget install kubectl
 - winget install minikube
+- winget install kubectx
+- minikube addons enable metrics-server
 
 ### Start Minikube
 - minikube start (will download around 700mb files)
@@ -9,6 +12,7 @@
 - kubectl get pod
 - kubectl get services
 - kubectl get deployment
+- kubectl get all  // gets all components
 - kubectl create deployment mongo-depl --image=mongo  (Creates a deployment named as "mongo-depl" for docker image mongo)
 
 - We will deal with deployment and not pods directly.
@@ -21,6 +25,9 @@
 - kubectl exec -it pod-name -- bin/bash
 - kubectl delete deployment deployment-name
 
+### Metrics
+- kubectl top 
+    - The kubectl top command returns current CPU and memory usage for a cluster’s pods or nodes, or for a particular pod or node if specified.
 
 ### Config file
 - kubectl apply -f config-file.yaml
