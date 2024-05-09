@@ -51,6 +51,10 @@ Follow this folder structure to add your daily logs.
 
 - [glich.stream](https://youtube.com/playlist?list=PLArH6NjfKsUhvGHrpag7SuPumMzQRhUKY&si=neQdbgUpow-ahIFf)
 
+# YML
+
+- [Blog](https://spacelift.io/blog/yaml)
+
 # Ansible
 
 - [Rahul Wagh](https://www.youtube.com/watch?v=GROqwFFLl3s)
