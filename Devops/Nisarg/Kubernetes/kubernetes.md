@@ -10,10 +10,14 @@
 
 ### Kubectl commands
 - kubectl get pod
+- kubectl run pod-name --image=image_from_which_pod_is_to_be_created:tag   (If local image) --image-pull-policy=Never (If local image) --restart=Never
+- kubectl delete pod pod-name
 - kubectl get services
 - kubectl get deployment
 - kubectl get all  // gets all components
 - kubectl create deployment mongo-depl --image=mongo  (Creates a deployment named as "mongo-depl" for docker image mongo)
+- minikube image load local_image_name:tag  // Loads Local Image to minikube, to create pod from it.
+- minikube image rm image_name // remove image from minikube.
 
 - We will deal with deployment and not pods directly.
 

@@ -16,12 +16,17 @@ Follow this folder structure to add your daily logs.
 - [RoadMap](https://roadmap.sh/docker)
 - [Tech with Nana](https://youtu.be/3c-iBn73dDE?si=QNNfAH6KlVlW6Yb8)
 - [What is docker?](https://aws.amazon.com/docker/)
+- [Configure SpringBoot and mysql for docker](https://www.javainuse.com/devOps/docker/docker-mysql)
+- [Configure Vite + React App for docker](https://thedkpatel.medium.com/dockerizing-react-application-built-with-vite-a-simple-guide-4c41eb09defa)
 
 # Kubernetes
 
 - [RoadMap](https://roadmap.sh/kubernetes)
+- [Kubernetes Handbook](https://minikube.sigs.k8s.io/docs/handbook/)
 - [Tech with Nana](https://www.youtube.com/watch?v=X48VuDVv0do)
 - [source Code](https://gitlab.com/nanuchi/youtube-tutorial-series/-/tree/master)
+- [Create Pod using Custom image](https://www.baeldung.com/ops/docker-local-images-minikube#:~:text=Let's%20use%20our%20Dockerfile%20and,:%20$%20kubectl%20logs%20first%2Dcontainer)
+- [Using Local Image with minikube](https://betterstack.com/community/questions/how-to-use-local-docker-images-with-minikube/)
 
 # Devops Playlist
 
