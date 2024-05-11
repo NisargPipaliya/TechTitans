@@ -8,7 +8,7 @@
 - minikube addons enable ingress
 
 ### Start Minikube
-- minikube start (will download around 700mb files)
+- minikube start --driver=docker (will download around 700mb files)
 
 ### Kubectl commands
 - kubectl get pod
