@@ -28,6 +28,14 @@ Explore the Kubernetes universe:
 - 🗺️ [RoadMap](https://roadmap.sh/kubernetes) <a href="https://roadmap.sh/kubernetes" target="_blank" rel="noopener noreferrer"><img src="https://www.google.com/s2/favicons?domain=https://roadmap.sh/" alt="RoadMap Favicon" width="16" height="16"></a>
 - 🎥 [Tech with Nana](https://www.youtube.com/watch?v=X48VuDVv0do) <a href="https://www.youtube.com/watch?v=X48VuDVv0do" target="_blank" rel="noopener noreferrer"><img src="https://www.google.com/s2/favicons?domain=https://www.youtube.com/" alt="YouTube Favicon" width="16" height="16"></a>
 - 📦 [Source Code](https://gitlab.com/nanuchi/youtube-tutorial-series/-/tree/master) <a href="https://gitlab.com/nanuchi/youtube-tutorial-series/-/tree/master" target="_blank" rel="noopener noreferrer"><img src="https://www.google.com/s2/favicons?domain=https://gitlab.com/" alt="GitLab Favicon" width="16" height="16"></a>
+- 📔 [Kubernetes Handbook](https://minikube.sigs.k8s.io/docs/handbook/)
+- 📦 [Using Local Docker Container for K8s Deployment](https://www.baeldung.com/ops/docker-local-images-minikube#:~:text=Let's%20use%20our%20Dockerfile%20and,:%20$%20kubectl%20logs%20first%2Dcontainer)
+- ☸️ [Local Docker Image with minikube](https://betterstack.com/community/questions/how-to-use-local-docker-images-with-minikube/)
+
+#### Helm 
+- 🖥️ [Install Helm](https://helm.sh/docs/intro/install/)
+- 👨‍💼[Helm Hub](https://artifacthub.io/)
+- 🦑 [Helm-Github](https://github.com/helm)
 
 ## Devops Playlist 🛠️
 
