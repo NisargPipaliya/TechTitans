@@ -3,7 +3,9 @@
 - winget install kubectl
 - winget install minikube
 - winget install kubectx
+- winget install Helm.Helm
 - minikube addons enable metrics-server
+- minikube addons enable ingress
 
 ### Start Minikube
 - minikube start (will download around 700mb files)
