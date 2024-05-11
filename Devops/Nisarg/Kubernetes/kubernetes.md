@@ -64,3 +64,7 @@ Everything below deployment is managed by Kubernetes
 ![alt text](image.png)
 
 ![alt text](image-1.png)
+
+
+## TroubleShoot
+- [Minikube failed to start](https://stackoverflow.com/questions/65355648/minikube-failed-to-start)
