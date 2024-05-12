@@ -31,6 +31,8 @@ Explore the Kubernetes universe:
 - 📔 [Kubernetes Handbook](https://minikube.sigs.k8s.io/docs/handbook/)
 - 📦 [Using Local Docker Container for K8s Deployment](https://www.baeldung.com/ops/docker-local-images-minikube#:~:text=Let's%20use%20our%20Dockerfile%20and,:%20$%20kubectl%20logs%20first%2Dcontainer)
 - ☸️ [Local Docker Image with minikube](https://betterstack.com/community/questions/how-to-use-local-docker-images-with-minikube/)
+- [Good Github Repo](https://github.com/devopsproin/certified-kubernetes-administrator/tree/main)
+
 
 #### Helm 
 - 🖥️ [Install Helm](https://helm.sh/docs/intro/install/)
