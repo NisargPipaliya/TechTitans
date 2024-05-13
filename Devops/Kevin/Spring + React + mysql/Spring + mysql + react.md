@@ -1,14 +1,14 @@
-# For Springboot app to inages 
- --> ./mvnw spring-boot:build-image "-Dspring-boot.build-image.imageName=kevin0403/blogvista"
+## For Springboot app to image
+./mvnw spring-boot:build-image "-Dspring-boot.build-image.imageName=kevin0403/blogvista"
 
-# for starting mysql connection
+## For starting mysql connection
 --> docker run --name mysqldb --network mysql-network -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=XYZ -d mysql
 
-# for running springboot application
+## for running springboot application
 --> docker run -d --name backend --network mysql-network -p 9090:8080 kevin0403/blogvista
 
 
-# Dockerfile for react
+## Dockerfile for react
 
 --------------------
 FROM node:latest
