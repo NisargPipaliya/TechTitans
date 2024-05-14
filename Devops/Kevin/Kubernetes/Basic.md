@@ -21,6 +21,10 @@ docker context use default
 minikube start --driver=docker
 ```
 
+### Information of all components
+```
+kubectl get all
+```
 
 ### Information of running nodes
 ```
@@ -90,6 +94,12 @@ kubectl get replicaset
 kubectl edit deployment <deployment name>
 ```
 
+### Assign external ip address to service
+- It will open the browser with external ip address 
+```
+minikube service <service name>
+```
+
 ## Debugging
 
 ### Printing the logs
@@ -98,10 +108,12 @@ kubectl edit deployment <deployment name>
 kubectl logs <pod name>
 ```
 
-### Extra informatio about a pod
+### Extra information
 - It will describe pod info like what is happening while creating pods
 ```
 kubectl describe pod <pod name>
+
+kubectl describe service <service name>
 ```
 ### Starting interactive terminal
 - If already created with same cofiguration fle then insted of creating new one it is going to update the existing one.
@@ -109,6 +121,11 @@ kubectl describe pod <pod name>
 kubectl exec -it <pod name> -- bin/bash
 ```
 
+### Convert plaintext to base64
+
+```
+echo -n 'Hello' | sbase64
+```
 
 
 ## sample Configuration file for Deployment
@@ -162,4 +179,46 @@ spec:
     - protocol: TCP
       port: 80
       targetPort: 80
+```
+
+## Sample configuration file for secreat
+
+```
+apiVersion: v1
+kind: Secret
+metadata:
+  name: mongodb-secret
+type: Opaque
+data:
+  mongo-root-username: SGVsbG8=
+  mongo-root-password: SGVsbG8=
+
+<!-- Use of it-->
+    env:
+    - name: MONGO_INITDB_ROOT_USERNAME
+      valueFrom:
+        secretKeyRef:
+          name: mongodb-secret
+          key: mongo-root-username
+```
+
+## Sample configuration file for configmap
+
+```
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mongo-config
+data:
+  database_url: mongodb-service
+
+
+<!-- Use of it -->
+    env:
+    - name: ME_CONFIG_MONGODB_SERVER
+      valueFrom:
+        configMapKeyRef:
+          name: mongo-config
+          key: database_url
+
 ```
