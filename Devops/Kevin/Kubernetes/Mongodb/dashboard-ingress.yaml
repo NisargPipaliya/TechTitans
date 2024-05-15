@@ -1,0 +1,50 @@
+# apiVersion: networking.k8s.io/v1
+# kind: Ingress
+# metadata:
+#   name: dashboard-ingress
+#   namespace: kubernetes-dashboard
+# spec:
+#   rules:
+#   - host: dashboard.com
+#     http:
+#       paths:
+#       - backend:
+#           serviceName: kubernetes-dashboard
+#           servicePort: 80
+
+
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: dashboard-ingress
+  namespace: kubernetes-dashboard
+spec:
+  rules: 
+  - host: dashboard.com
+    http: 
+      paths:
+      - pathType: Prefix
+        path: "/"
+        backend:
+          service:
+            name: kubernetes-dashboard
+            port:
+              number: 80        
+        
+# apiVersion: networking.k8s.io/v1
+# kind: Ingress
+# metadata:
+#   name: dashboard-ingress
+#   namespace: ingress-nginx
+# spec:
+#   rules:
+#   - host: dashboard.info
+#     http:
+#       paths:
+#         - pathType: Prefix
+#           path: "/1"
+#           backend:
+#             service:
+#               name: kubernetes-dashboard
+#               port:
+#                 number: 80  

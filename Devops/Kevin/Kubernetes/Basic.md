@@ -222,3 +222,96 @@ data:
           key: database_url
 
 ```
+
+
+# Ingress
+```
+minikube start
+```
+```
+minikube addons enable ingress
+```
+```
+minikube addons enable ingress-dns
+```
+
+### Wait until you see the ingress-nginx-controller-XXXX is up and running using Kubectl 
+```
+get pods -n ingress-nginx
+```
+
+
+### Create an ingress using the K8s example yaml file
+
+```
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: dashboard-ingress
+  namespace: kubernetes-dashboard
+spec:
+  rules: 
+  - host: dashboard.com
+    http: 
+      paths:
+      - pathType: Prefix
+        path: "/"
+        backend:
+          service:
+            name: kubernetes-dashboard
+            port:
+              number: 80 
+```
+
+### Update the service section to point to the NodePort Service that you already created
+- For windows path of host file should be 'C:\Windows\System32\drivers\etc\hosts'
+- Append 127.0.0.1 hello-world.info to your /etc/hosts file on MacOS (NOTE: Do NOT use the Minikube IP)
+
+### Run below cmmand ( Keep the window open. After you entered the password there will be no more messages, and the cursor just blinks)
+```
+minikube tunnel
+```
+
+- Hit the hello-world.info ( or whatever host you configured in the yaml file) in a browser and it should work
+
+----
+# Container Communicatuion
+
+  - Every pod has a unique IP address
+  - Pod is a isolated virtual host.
+  - containers inside one pod can talk to each other via localhost and port number.
+
+----
+# Volumes
+
+### requirements
+  - Storage doesn't depend on the pod lifecycle.
+  - It must be available on all nodes.
+  - it needs to survive even if cluster crashes.
+
+#### types of volumes
+  - Persistance volume
+    - a clusture resource
+    - created via YAML file.
+    - needs actual physical storage.
+    - depending on storage type spec. attr. are differs.
+    - it are not namespaced.
+  
+  - Local volume
+    - not being tied to one specific node
+    - not surviving in cluster crashes
+    - rest all the reqs are satisfied of persistance volume
+
+#### ''Persistance Volume Claim(PVC)'' for use the volume in pods.
+- claim must exist in the same namespace as pod.
+
+
+#### ConfigMap & Secret
+
+#### Storage Class(SC)
+- It is another abstraction layer upon the PVC.
+  - A pod claims for storage via PVC
+  - PVC request storage from SC
+  - SC creates PV(Physical Volume) that meets the need of claim.
+
+### [Sample Project Click here](./Mosquitto)
