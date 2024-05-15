@@ -17,6 +17,7 @@
 
 ```shell
 minikube addons enable ingress
+minikube addons enable ingress-dns
 ```
 - To check ingress controller pod is running or not?
 ```shell
@@ -53,3 +54,7 @@ spec:
 ```
 
 - ``` kubectl get ingress -n kubernetes-dashboard```
+- After executing the file, add ``` 127.0.0.1 host-name ``` to your **host** file in home/windws32/drivers/etc/.
+- Then execute ```minikube tunnel``` and wait until cursor dosen't blink.
+- Now type host name in browser, and it will work.
+- Refer This: [StackOverFlow Article](https://stackoverflow.com/questions/58561682/minikube-with-ingress-example-not-working)
