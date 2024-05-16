@@ -21,5 +21,6 @@ public class Job {
     private String location;
 //    @ManyToOne
 //    @Cascade(CascadeType.ALL)
+    @Column(name="companyid")
     private Long companyID;
 }
