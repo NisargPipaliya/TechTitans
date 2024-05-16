@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2473463e-f037-4fcf-9e14-d3eacb511b68" name="Changes" comment="" />
+    <list default="true" id="2473463e-f037-4fcf-9e14-d3eacb511b68" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../CompanyMS/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CompanyMS/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobMS/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JobMS/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobMS/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../JobMS/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobMS/target/classes/org/example/jobms/job/Impl/JobServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JobMS/target/classes/org/example/jobms/job/Impl/JobServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobMS/target/classes/org/example/jobms/job/Job.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JobMS/target/classes/org/example/jobms/job/Job.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobMS/target/classes/org/example/jobms/job/JobController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JobMS/target/classes/org/example/jobms/job/JobController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobMS/target/classes/org/example/jobms/job/JobService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JobMS/target/classes/org/example/jobms/job/JobService.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,12 +21,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -29,31 +44,67 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Spring Boot.ReviewMsApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;5-nisarg-learn-microservices-part---1-for-java&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/TechTitans/TechTitans/Microservices_Java/Nisarg/APP/ReviewMS/src/main/java/org/example/reviewms&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.CompanyMsApplication.executor": "Run",
+    "Spring Boot.JobMsApplication.executor": "Run",
+    "Spring Boot.ReviewMsApplication.executor": "Run",
+    "Spring Boot.ServiceRegistryApplication.executor": "Run",
+    "git-widget-placeholder": "98-nisarg-learn-microservice-part-2",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/TechTitans/TechTitans/Microservices_Java/Nisarg/APP/ServiceRegistry",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\TechTitans\TechTitans\Microservices_Java\Nisarg\APP\ReviewMS\src\main\java\org\example\reviewms" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="Application" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.JobMsApplication">
+    <configuration name="CompanyMsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="CompanyMS" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.companyms.CompanyMsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JobMsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="JobMS" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.jobms.JobMsApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.jobms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReviewMsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="ReviewMS" />
@@ -62,6 +113,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServiceRegistryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="ServiceRegistry" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.serviceregistry.ServiceRegistryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ServiceRegistryApplication" />
+      <item itemvalue="Spring Boot.CompanyMsApplication" />
+      <item itemvalue="Spring Boot.ReviewMsApplication" />
+      <item itemvalue="Spring Boot.JobMsApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.JobMsApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -81,6 +151,8 @@
       <updated>1715680004479</updated>
       <workItem from="1715680005624" duration="2173000" />
       <workItem from="1715682201234" duration="10000" />
+      <workItem from="1715865511414" duration="50000" />
+      <workItem from="1715865574603" duration="3074000" />
     </task>
     <servers />
   </component>
