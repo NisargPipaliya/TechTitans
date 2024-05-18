@@ -9,11 +9,7 @@ import org.example.jobms.job.dto.JobDTO;
 import org.example.jobms.job.external.Company;
 import org.example.jobms.job.external.Review;
 import org.example.jobms.job.mapper.JobMapper;
-import org.springframework.core.ParameterizedTypeReference;
-import org.springframework.http.HttpMethod;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-import org.springframework.web.client.RestTemplate;
 
 import java.util.ArrayList;
 import java.util.List;

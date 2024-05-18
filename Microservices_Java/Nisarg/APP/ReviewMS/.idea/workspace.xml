@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2473463e-f037-4fcf-9e14-d3eacb511b68" name="Changes" comment="Fixes">
-      <change beforePath="$PROJECT_DIR$/../../6.Zipkin/Zipkin.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../6.Zipkin/Zipkin.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CompanyMS/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CompanyMS/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CompanyMS/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CompanyMS/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JobMS/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JobMS/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JobMS/src/main/java/org/example/jobms/job/Impl/JobServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobMS/src/main/java/org/example/jobms/job/Impl/JobServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JobMS/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../JobMS/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServiceRegistry/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ServiceRegistry/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2473463e-f037-4fcf-9e14-d3eacb511b68" name="Changes" comment="Fixes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -165,7 +157,7 @@
       <workItem from="1715921349220" duration="12079000" />
       <workItem from="1716014192236" duration="2476000" />
       <workItem from="1716016687537" duration="2555000" />
-      <workItem from="1716027939982" duration="1920000" />
+      <workItem from="1716027939982" duration="2631000" />
     </task>
     <task id="LOCAL-00001" summary="Fixes">
       <option name="closed" value="true" />
