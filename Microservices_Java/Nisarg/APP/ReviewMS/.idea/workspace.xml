@@ -5,20 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2473463e-f037-4fcf-9e14-d3eacb511b68" name="Changes" comment="Fixes">
-      <change afterPath="$PROJECT_DIR$/../JobMS/src/main/java/org/example/jobms/job/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JobMS/src/main/java/org/example/jobms/job/dto/JobDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JobMS/src/main/java/org/example/jobms/job/external/Review.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JobMS/src/main/java/org/example/jobms/job/mapper/JobMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CompanyMS/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CompanyMS/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobMS/src/main/java/org/example/jobms/job/LoadBalancerConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobMS/src/main/java/org/example/jobms/job/clients/CompanyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobMS/src/main/java/org/example/jobms/job/clients/ReviewClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JobMS/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JobMS/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobMS/src/main/java/org/example/jobms/JobMsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobMS/src/main/java/org/example/jobms/JobMsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobMS/src/main/java/org/example/jobms/job/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobMS/src/main/java/org/example/jobms/job/AppConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JobMS/src/main/java/org/example/jobms/job/Impl/JobServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobMS/src/main/java/org/example/jobms/job/Impl/JobServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JobMS/src/main/java/org/example/jobms/job/JobController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobMS/src/main/java/org/example/jobms/job/JobController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JobMS/src/main/java/org/example/jobms/job/JobService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobMS/src/main/java/org/example/jobms/job/JobService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JobMS/src/main/java/org/example/jobms/job/dto/JobWithCompanyDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobMS/target/classes/org/example/jobms/JobMsApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JobMS/target/classes/org/example/jobms/JobMsApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JobMS/target/classes/org/example/jobms/job/Impl/JobServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JobMS/target/classes/org/example/jobms/job/Impl/JobServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JobMS/target/classes/org/example/jobms/job/JobController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JobMS/target/classes/org/example/jobms/job/JobController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JobMS/target/classes/org/example/jobms/job/JobService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JobMS/target/classes/org/example/jobms/job/JobService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ServiceRegistery.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../ServiceRegistery.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Actuator/Actuatuor.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Inter_Service_Communication/Inter_Service_Communication.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Inter_Service_Communication/image-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Intro_To_Microservices/Intro_To_Microservices.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Intro_To_Microservices/image-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Intro_To_Microservices/image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServiceRegistry_and_Spring_Cloud_Netflix/ServiceRegistery.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServiceRegistry_and_Spring_Cloud_Netflix/image-3.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +31,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -47,7 +51,7 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -78,6 +82,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -167,7 +172,9 @@
       <workItem from="1715682201234" duration="10000" />
       <workItem from="1715865511414" duration="50000" />
       <workItem from="1715865574603" duration="3074000" />
-      <workItem from="1715921349220" duration="11482000" />
+      <workItem from="1715921349220" duration="12079000" />
+      <workItem from="1716014192236" duration="2476000" />
+      <workItem from="1716016687537" duration="2555000" />
     </task>
     <task id="LOCAL-00001" summary="Fixes">
       <option name="closed" value="true" />
@@ -186,5 +193,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixes" />
     <option name="LAST_COMMIT_MESSAGE" value="Fixes" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../JobMS/src/main/java/org/example/jobms/job/Impl/JobServiceImpl.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

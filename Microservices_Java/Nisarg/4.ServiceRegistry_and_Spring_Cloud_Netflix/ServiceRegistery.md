@@ -5,6 +5,11 @@
 - And when a M.S. shutdowns, Service Registry Automatically de-registers it.
 ![alt text](image-3.png)
 
+- List of service registries:
+    - Consul(Distributed)
+    - Apache ZooKeeper(Centralized)
+    - Etcd(Distributed)
+    - Eureka(Centralized)
 <br/>
 
 ---
