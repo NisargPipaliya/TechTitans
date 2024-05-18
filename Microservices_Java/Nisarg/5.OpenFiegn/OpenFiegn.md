@@ -1,9 +1,6 @@
 # OpenFiegn
 - Feign is a declarative web service client designed to make writing HTTP clients easier.
 - Till now we used **RestTemplate**, but there we need to write boiler-plate code again and again.
-```java
-
-```
 - It provides us simple functions to interact with other services.
 ```java
 Company c = companyClient.getCompany(jobObj);

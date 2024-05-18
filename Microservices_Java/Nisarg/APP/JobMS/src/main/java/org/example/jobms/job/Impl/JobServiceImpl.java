@@ -22,14 +22,14 @@ import java.util.Optional;
 @Service
 public class JobServiceImpl implements JobService {
     JobRepo jobrepo;
-    RestTemplate restTemplate;
+//    RestTemplate restTemplate;
 //    String companyUrl = "http://CompanyMS:8081/companies/";
 //    String reviewUrl = "http://ReviewMS:8083/reviews?companyId=";
     private final CompanyClient companyClient;
     private final ReviewClient reviewClient;
-    public JobServiceImpl(JobRepo repo,RestTemplate rt,CompanyClient companyClient,ReviewClient reviewClient){
+    public JobServiceImpl(JobRepo repo,CompanyClient companyClient,ReviewClient reviewClient){
         this.jobrepo = repo;
-        this.restTemplate = rt;
+//        this.restTemplate = rt;
         this.companyClient = companyClient;
         this.reviewClient = reviewClient;
     }

@@ -5,23 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2473463e-f037-4fcf-9e14-d3eacb511b68" name="Changes" comment="Fixes">
-      <change afterPath="$PROJECT_DIR$/../JobMS/src/main/java/org/example/jobms/job/LoadBalancerConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JobMS/src/main/java/org/example/jobms/job/clients/CompanyClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JobMS/src/main/java/org/example/jobms/job/clients/ReviewClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6.Zipkin/Zipkin.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../6.Zipkin/Zipkin.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CompanyMS/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CompanyMS/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CompanyMS/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CompanyMS/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JobMS/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JobMS/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JobMS/src/main/java/org/example/jobms/JobMsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobMS/src/main/java/org/example/jobms/JobMsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JobMS/src/main/java/org/example/jobms/job/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobMS/src/main/java/org/example/jobms/job/AppConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JobMS/src/main/java/org/example/jobms/job/Impl/JobServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobMS/src/main/java/org/example/jobms/job/Impl/JobServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JobMS/target/classes/org/example/jobms/JobMsApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JobMS/target/classes/org/example/jobms/JobMsApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JobMS/target/classes/org/example/jobms/job/Impl/JobServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JobMS/target/classes/org/example/jobms/job/Impl/JobServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actuator/Actuatuor.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Inter_Service_Communication/Inter_Service_Communication.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Inter_Service_Communication/image-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Intro_To_Microservices/Intro_To_Microservices.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Intro_To_Microservices/image-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Intro_To_Microservices/image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ServiceRegistry_and_Spring_Cloud_Netflix/ServiceRegistery.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ServiceRegistry_and_Spring_Cloud_Netflix/image-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobMS/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../JobMS/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServiceRegistry/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ServiceRegistry/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,6 +165,7 @@
       <workItem from="1715921349220" duration="12079000" />
       <workItem from="1716014192236" duration="2476000" />
       <workItem from="1716016687537" duration="2555000" />
+      <workItem from="1716027939982" duration="1920000" />
     </task>
     <task id="LOCAL-00001" summary="Fixes">
       <option name="closed" value="true" />
