@@ -18,6 +18,7 @@
 		<spring-cloud.version>2023.0.1</spring-cloud.version>
 	</properties>
 	<dependencies>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>

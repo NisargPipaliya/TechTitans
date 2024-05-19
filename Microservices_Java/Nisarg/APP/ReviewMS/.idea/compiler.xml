@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ServiceRegistry" />
+        <module name="ConfigServer" />
         <module name="JobMS" />
         <module name="ReviewMS" />
         <module name="CompanyMS" />
@@ -17,6 +18,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="CompanyMS" options="-parameters" />
+      <module name="ConfigServer" options="-parameters" />
       <module name="JobMS" options="-parameters" />
       <module name="ReviewMS" options="-parameters" />
       <module name="ServiceRegistry" options="-parameters" />
