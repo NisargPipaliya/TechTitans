@@ -1,6 +1,7 @@
 #include <vector>
 #include <algorithm>
-using namespace std;class Solution {
+using namespace std;
+class Solution {
 public:
     vector<int> spiralOrder(vector<vector<int>>& matrix) {
         vector<int> spiral;
