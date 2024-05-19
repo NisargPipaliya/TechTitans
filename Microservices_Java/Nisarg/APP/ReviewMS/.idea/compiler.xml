@@ -7,13 +7,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ServiceRegistry" />
+        <module name="ConfigServer" />
+        <module name="APIGateway" />
+        <module name="JobMS" />
         <module name="ReviewMS" />
+        <module name="CompanyMS" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="APIGateway" options="-parameters" />
+      <module name="CompanyMS" options="-parameters" />
+      <module name="ConfigServer" options="-parameters" />
+      <module name="JobMS" options="-parameters" />
       <module name="ReviewMS" options="-parameters" />
+      <module name="ServiceRegistry" options="-parameters" />
     </option>
   </component>
 </project>
