@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ServiceRegistry" />
         <module name="ConfigServer" />
+        <module name="APIGateway" />
         <module name="JobMS" />
         <module name="ReviewMS" />
         <module name="CompanyMS" />
@@ -17,6 +18,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="APIGateway" options="-parameters" />
       <module name="CompanyMS" options="-parameters" />
       <module name="ConfigServer" options="-parameters" />
       <module name="JobMS" options="-parameters" />

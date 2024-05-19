@@ -52,6 +52,7 @@
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.ApiGatewayApplication.executor": "Run",
     "Spring Boot.CompanyMsApplication.executor": "Run",
     "Spring Boot.ConfigServerApplication.executor": "Run",
     "Spring Boot.JobMsApplication.executor": "Run",
@@ -59,7 +60,7 @@
     "Spring Boot.ServiceRegistryApplication.executor": "Run",
     "git-widget-placeholder": "98-nisarg-learn-microservice-part-2",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/TechTitans/TechTitans/Microservices_Java/Nisarg/APP/ConfigServer",
+    "last_opened_file_path": "E:/TechTitans/TechTitans/Microservices_Java/Nisarg/APP/APIGateway",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -86,6 +87,14 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.ReviewMsApplication">
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="APIGateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.apigateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CompanyMsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="CompanyMS" />
@@ -133,6 +142,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.ApiGatewayApplication" />
       <item itemvalue="Spring Boot.ConfigServerApplication" />
       <item itemvalue="Spring Boot.ServiceRegistryApplication" />
       <item itemvalue="Spring Boot.CompanyMsApplication" />
@@ -169,7 +179,7 @@
       <workItem from="1716014192236" duration="2476000" />
       <workItem from="1716016687537" duration="2555000" />
       <workItem from="1716027939982" duration="4010000" />
-      <workItem from="1716101169566" duration="6185000" />
+      <workItem from="1716101169566" duration="10639000" />
     </task>
     <task id="LOCAL-00001" summary="Fixes">
       <option name="closed" value="true" />
