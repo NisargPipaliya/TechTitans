@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2473463e-f037-4fcf-9e14-d3eacb511b68" name="Changes" comment="Fixes" />
+    <list default="true" id="2473463e-f037-4fcf-9e14-d3eacb511b68" name="Changes" comment="Fixes">
+      <change afterPath="$PROJECT_DIR$/../../9.Fault_Tolerance/Fault_Tolerance.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,13 +42,16 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2gS9EljjGZfmNgyHiCH9v4CHqyp" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -180,6 +185,7 @@
       <workItem from="1716016687537" duration="2555000" />
       <workItem from="1716027939982" duration="4010000" />
       <workItem from="1716101169566" duration="10639000" />
+      <workItem from="1716124647727" duration="790000" />
     </task>
     <task id="LOCAL-00001" summary="Fixes">
       <option name="closed" value="true" />
@@ -196,6 +202,7 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Fixes" />
     <option name="LAST_COMMIT_MESSAGE" value="Fixes" />
   </component>
