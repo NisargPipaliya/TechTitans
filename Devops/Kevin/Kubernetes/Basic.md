@@ -72,7 +72,7 @@ kubectl apply -f <file.yaml>
 ```
 
 
-### Deletethe deployment
+### Delete the deployment
 - It will delete the deployment which <mark>autmatically delets the replica and pods asssociated with it.
 ```
 kubectl delete <deployment name>
@@ -222,3 +222,179 @@ data:
           key: database_url
 
 ```
+
+
+# Ingress
+```
+minikube start
+```
+```
+minikube addons enable ingress
+```
+```
+minikube addons enable ingress-dns
+```
+
+### Wait until you see the ingress-nginx-controller-XXXX is up and running using Kubectl 
+```
+get pods -n ingress-nginx
+```
+
+
+### Create an ingress using the K8s example yaml file
+
+```
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: dashboard-ingress
+  namespace: kubernetes-dashboard
+spec:
+  rules: 
+  - host: dashboard.com
+    http: 
+      paths:
+      - pathType: Prefix
+        path: "/"
+        backend:
+          service:
+            name: kubernetes-dashboard
+            port:
+              number: 80 
+```
+
+### Update the service section to point to the NodePort Service that you already created
+- For windows path of host file should be 'C:\Windows\System32\drivers\etc\hosts'
+- Append 127.0.0.1 hello-world.info to your /etc/hosts file on MacOS (NOTE: Do NOT use the Minikube IP)
+
+### Run below cmmand ( Keep the window open. After you entered the password there will be no more messages, and the cursor just blinks)
+```
+minikube tunnel
+```
+
+- Hit the hello-world.info ( or whatever host you configured in the yaml file) in a browser and it should work
+
+----
+# Container Communicatuion
+
+  - Every pod has a unique IP address
+  - Pod is a isolated virtual host.
+  - containers inside one pod can talk to each other via localhost and port number.
+
+----
+# Volumes
+
+### requirements
+  - Storage doesn't depend on the pod lifecycle.
+  - It must be available on all nodes.
+  - it needs to survive even if cluster crashes.
+
+#### types of volumes
+  - Persistance volume
+    - a clusture resource
+    - created via YAML file.
+    - needs actual physical storage.
+    - depending on storage type spec. attr. are differs.
+    - it are not namespaced.
+  
+  - Local volume
+    - not being tied to one specific node
+    - not surviving in cluster crashes
+    - rest all the reqs are satisfied of persistance volume
+
+#### ''Persistance Volume Claim(PVC)'' for use the volume in pods.
+- claim must exist in the same namespace as pod.
+
+
+#### ConfigMap & Secret
+
+#### Storage Class(SC)
+- It is another abstraction layer upon the PVC.
+  - A pod claims for storage via PVC
+  - PVC request storage from SC
+  - SC creates PV(Physical Volume) that meets the need of claim.
+
+### [Sample Project Click here](./Mosquitto)
+
+---
+
+## Statful Set
+- Application that stores the data
+- record the state
+- eg. Database
+- Stateless applications are deployed using the deployment while stateful apps are deployed using the <mark>Statefulset</mark>
+- When we crate replicas of statefulset then there will be one slave and remaings are slave. 
+  - Only master have access of update the data. Slave can only read the data and it have to stnchronized with the master in order to keep up to date.
+  - All the replicas are pointing to different storages.
+  - data will be lost when all the podsare die.(so kep try to use persistance storage)
+- Every pod in stateful set have unique identifier.
+- At the time of creation and deletion of pods orders are maintained.
+
+
+## Monitoring
+
+- [Prometheus Operator helm chart Repostory](https://github.com/helm/charts/tree/master/stable/prometheus-operator) **Depricated**
+
+- [kube-prometheus-stack](https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-prometheus-stack) Currently managed
+ 
+### Helm Command for installing the helm chart
+
+```
+helm install [RELEASE_NAME] prometheus-community/kube-prometheus-stack
+```
+```
+NAME                                                         READY   STATUS    RESTARTS   AGE
+pod/alertmanager-prometheus-kube-prometheus-alertmanager-0   2/2     Running   0          2m54s
+pod/prometheus-grafana-6597bd8c5f-btsng                      3/3     Running   0          3m29s
+pod/prometheus-kube-prometheus-operator-7d798c4898-27v4j     1/1     Running   0          3m29s
+pod/prometheus-kube-state-metrics-599c6b59fb-zhs9v           1/1     Running   0          3m29s
+pod/prometheus-prometheus-kube-prometheus-prometheus-0       2/2     Running   0          2m53s
+pod/prometheus-prometheus-node-exporter-244dg                1/1     Running   0          3m29s
+
+NAME                                              TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)                      AGE
+service/alertmanager-operated                     ClusterIP   None             <none>        9093/TCP,9094/TCP,9094/UDP   2m54s
+service/kubernetes                                ClusterIP   10.96.0.1        <none>        443/TCP                      23m
+service/prometheus-grafana                        ClusterIP   10.97.229.114    <none>        80/TCP                       3m30s
+service/prometheus-kube-prometheus-alertmanager   ClusterIP   10.111.58.10     <none>        9093/TCP,8080/TCP            3m30s
+service/prometheus-kube-prometheus-operator       ClusterIP   10.103.143.124   <none>        443/TCP                      3m30s
+service/prometheus-kube-prometheus-prometheus     ClusterIP   10.97.249.238    <none>        9090/TCP,8080/TCP            3m30s
+service/prometheus-kube-state-metrics             ClusterIP   10.100.77.171    <none>        8080/TCP                     3m30s
+service/prometheus-operated                       ClusterIP   None             <none>        9090/TCP                     2m53s
+service/prometheus-prometheus-node-exporter       ClusterIP   10.105.123.252   <none>        9100/TCP                     3m30s
+
+NAME                                                 DESIRED   CURRENT   READY   UP-TO-DATE   AVAILABLE   NODE SELECTOR            AGE
+daemonset.apps/prometheus-prometheus-node-exporter   1         1         1       1            1           kubernetes.io/os=linux   3m29s
+
+NAME                                                  READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/prometheus-grafana                    1/1     1            1           3m29s
+deployment.apps/prometheus-kube-prometheus-operator   1/1     1            1           3m29s
+deployment.apps/prometheus-kube-state-metrics         1/1     1            1           3m29s
+
+NAME                                                             DESIRED   CURRENT   READY   AGE
+replicaset.apps/prometheus-grafana-6597bd8c5f                    1         1         1       3m29s
+replicaset.apps/prometheus-kube-prometheus-operator-7d798c4898   1         1         1       3m29s
+replicaset.apps/prometheus-kube-state-metrics-599c6b59fb         1         1         1       3m29s
+
+NAME                                                                    READY   AGE
+statefulset.apps/alertmanager-prometheus-kube-prometheus-alertmanager   1/1     2m54s
+statefulset.apps/prometheus-prometheus-kube-prometheus-prometheus       1/1     2m53s
+```
+
+- deamonset is runs on every worker node
+
+
+
+### forward port
+- It will handle the direct request from localhost to kubectl pods.
+
+#### dor graphana ui
+```
+kubectl port-forward deployment/prometheus-grafana 3000
+```
+
+#### for promethes ui
+```
+kubectl port-forward prometheus-prometheus-kube-prometheus-prometheus-0 9090
+```
+
+  
