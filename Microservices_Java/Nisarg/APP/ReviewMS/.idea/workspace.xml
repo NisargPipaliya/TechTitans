@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2473463e-f037-4fcf-9e14-d3eacb511b68" name="Changes" comment="Fixes">
-      <change afterPath="$PROJECT_DIR$/../../9.Fault_Tolerance/Fault_Tolerance.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../DBMS_Cheatsheet_withLinks_compressed.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobMS/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JobMS/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobMS/src/main/java/org/example/jobms/job/Impl/JobServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobMS/src/main/java/org/example/jobms/job/Impl/JobServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobMS/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../JobMS/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobMS/target/classes/org/example/jobms/job/Impl/JobServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JobMS/target/classes/org/example/jobms/job/Impl/JobServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,33 +53,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.ApiGatewayApplication.executor": "Run",
-    "Spring Boot.CompanyMsApplication.executor": "Run",
-    "Spring Boot.ConfigServerApplication.executor": "Run",
-    "Spring Boot.JobMsApplication.executor": "Run",
-    "Spring Boot.ReviewMsApplication.executor": "Run",
-    "Spring Boot.ServiceRegistryApplication.executor": "Run",
-    "git-widget-placeholder": "98-nisarg-learn-microservice-part-2",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/TechTitans/TechTitans/Microservices_Java/Nisarg/APP/APIGateway",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "spring",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ApiGatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.CompanyMsApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ConfigServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.JobMsApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ReviewMsApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ServiceRegistryApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;98-nisarg-learn-microservice-part-2&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/TechTitans/TechTitans/Microservices_Java/Nisarg/APP/CompanyMS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;spring&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\TechTitans\TechTitans\Microservices_Java\Nisarg\APP\ReviewMS\src\main\java\org\example\reviewms" />
@@ -148,11 +152,11 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.ApiGatewayApplication" />
-      <item itemvalue="Spring Boot.ConfigServerApplication" />
-      <item itemvalue="Spring Boot.ServiceRegistryApplication" />
       <item itemvalue="Spring Boot.CompanyMsApplication" />
-      <item itemvalue="Spring Boot.ReviewMsApplication" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
       <item itemvalue="Spring Boot.JobMsApplication" />
+      <item itemvalue="Spring Boot.ReviewMsApplication" />
+      <item itemvalue="Spring Boot.ServiceRegistryApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -169,6 +173,17 @@
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringProfilesService">
+    <option name="activeProfiles">
+      <map>
+        <entry key="APIGateway" value="Project" />
+        <entry key="CompanyMS" value="Project" />
+        <entry key="JobMS" value="Project" />
+        <entry key="ReviewMS" value="Project" />
+        <entry key="ServiceRegistry" value="Project" />
+      </map>
+    </option>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="2473463e-f037-4fcf-9e14-d3eacb511b68" name="Changes" comment="" />
@@ -186,6 +201,8 @@
       <workItem from="1716027939982" duration="4010000" />
       <workItem from="1716101169566" duration="10639000" />
       <workItem from="1716124647727" duration="790000" />
+      <workItem from="1716474853876" duration="2640000" />
+      <workItem from="1716557532678" duration="5000" />
     </task>
     <task id="LOCAL-00001" summary="Fixes">
       <option name="closed" value="true" />
@@ -211,7 +228,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../JobMS/src/main/java/org/example/jobms/job/Impl/JobServiceImpl.java</url>
-          <line>37</line>
+          <line>38</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

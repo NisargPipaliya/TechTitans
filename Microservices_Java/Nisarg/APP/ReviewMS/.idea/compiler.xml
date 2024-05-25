@@ -15,13 +15,6 @@
         <module name="CompanyMS" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="APIGateway" target="17" />
-      <module name="CompanyMS" target="17" />
-      <module name="ConfigServer" target="17" />
-      <module name="JobMS" target="17" />
-      <module name="ServiceRegistry" target="17" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
