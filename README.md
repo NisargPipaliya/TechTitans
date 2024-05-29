@@ -47,6 +47,8 @@ Embark on your DevOps journey:
 - 🗺️ [RoadMap](https://roadmap.sh/devops) [![RoadMap](https://img.shields.io/badge/RoadMap-brightgreen?style=flat-square&logo=data:image/png;base64,...)](https://roadmap.sh/devops)
 - 📺 [Kunal Kushwaha](https://youtube.com/playlist?list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak&si=p1iwhiB2o-zKkIR0) [![YouTube](https://img.shields.io/badge/YouTube-red?style=flat-square&logo=youtube&logoColor=white)](https://youtube.com/playlist?list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak)
 
+- [Devops Interview Questions](https://www.eccouncil.org/cybersecurity-exchange/devsecops/a-guide-to-devops-interview-questions/)
+
 ## Jira 📝
 
 Manage your projects efficiently:

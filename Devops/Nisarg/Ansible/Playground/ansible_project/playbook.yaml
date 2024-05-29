@@ -1,0 +1,6 @@
+---
+- name: Example Playbook
+  hosts: ansible_servers
+  tasks:
+    - name: Example Task
+      command: hostname
