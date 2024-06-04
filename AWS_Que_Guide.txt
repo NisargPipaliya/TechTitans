@@ -1,0 +1,729 @@
+**AWS Quiz**
+
+1. What is the global infrastructure of AWS composed of?
+    a) Regions and Edge Locations
+    b) Availability Zones and Edge Locations
+    c) Regions and Availability Zones
+    d) Data Centers and Edge Locations
+    (Correct answer: c) Regions and Availability Zones)
+
+2. Which AWS service is a fully managed NoSQL database service?
+    a) Amazon RDS
+    b) Amazon DynamoDB
+    c) Amazon Redshift
+    d) Amazon ElastiCache
+    (Correct answer: b) Amazon DynamoDB)
+
+3. What is the purpose of AWS CloudTrail?
+    a) To monitor and troubleshoot AWS resources
+    b) To track user activity and API usage
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: b) To track user activity and API usage)
+
+4. Which AWS service is used for content delivery and edge computing?
+    a) Amazon S3
+    b) Amazon EC2
+    c) Amazon CloudFront
+    d) Amazon VPC
+    (Correct answer: c) Amazon CloudFront)
+
+5. What is the purpose of AWS Key Management Service (KMS)?
+    a) To manage AWS services
+    b) To create and manage encryption keys
+    c) To monitor AWS resource usage
+    d) To manage network traffic
+    (Correct answer: b) To create and manage encryption keys)
+
+
+6. Which AWS service is used for data warehousing and big data analytics?
+    a) Amazon RDS
+    b) Amazon DynamoDB
+    c) Amazon Redshift
+    d) Amazon ElastiCache
+    (Correct answer: c) Amazon Redshift)
+
+7. What is the purpose of AWS Auto Scaling?
+    a) To automatically adjust the number of EC2 instances based on demand
+    b) To automatically adjust the size of an EC2 instance based on demand
+    c) To automatically adjust the number of S3 buckets based on demand
+    d) To automatically adjust the size of an RDS instance based on demand
+    (Correct answer: a) To automatically adjust the number of EC2 instances based on demand)
+
+8. Which AWS service is used for in-memory caching?
+    a) Amazon RDS
+    b) Amazon DynamoDB
+    c) Amazon Redshift
+    d) Amazon ElastiCache
+    (Correct answer: d) Amazon ElastiCache)
+
+9. What is the purpose of AWS Trusted Advisor?
+    a) To provide recommendations for improving security and performance
+    b) To track user activity and API usage
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: a) To provide recommendations for improving security and performance)
+
+10. Which AWS service is used for machine learning, artificial intelligence, and data analysis?
+    a) Amazon SageMaker
+    b) Amazon QuickSight
+    c) Amazon Lex
+    d) All of the above
+    (Correct answer: d) All of the above)
+
+
+
+11. What is the purpose of AWS Lambda?
+    a) To run code in response to events
+    b) To manage AWS services
+    c) To monitor AWS resource usage
+    d) To manage network traffic
+    (Correct answer: a) To run code in response to events)
+
+12. Which AWS service is used for managing and provisioning resources?
+    a) AWS CloudFormation
+    b) AWS Elastic Beanstalk
+    c) AWS OpsWorks
+    d) All of the above
+    (Correct answer: d) All of the above)
+
+13. What is the purpose of AWS Config?
+    a) To provide a detailed view of the configuration of AWS resources
+    b) To track user activity and API usage
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: a) To provide a detailed view of the configuration of AWS resources)
+
+14. Which AWS service is used for managing and automating IT operations?
+    a) AWS Systems Manager
+    b) AWS CloudWatch
+    c) AWS CloudTrail
+    d) AWS Config
+    (Correct answer: a) AWS Systems Manager)
+
+15. What is the purpose of AWS CloudWatch?
+    a) To monitor and troubleshoot AWS resources
+    b) To track user activity and API usage
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: a) To monitor and troubleshoot AWS resources)
+
+
+16. Which AWS service is used for managing and deploying Docker containers?
+    a) Amazon ECS (Elastic Container Service)
+    b) Amazon EKS (Elastic Kubernetes Service)
+    c) AWS Fargate
+    d) All of the above
+    (Correct answer: d) All of the above)
+
+17. What is the purpose of AWS Direct Connect?
+    a) To establish a dedicated network connection between your on-premises environment and AWS
+    b) To track user activity and API usage
+    c) To manage network traffic within AWS
+    d) To deploy and manage applications
+    (Correct answer: a) To establish a dedicated network connection between your on-premises environment and AWS)
+
+18. Which AWS service is used for managing hybrid cloud environments?
+    a) AWS Outposts
+    b) AWS Storage Gateway
+    c) AWS Snowball
+    d) AWS Direct Connect
+    (Correct answer: a) AWS Outposts)
+
+19. What is the purpose of AWS Artifact?
+    a) To provide on-demand access to AWS compliance and security documents
+    b) To track user activity and API usage
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: a) To provide on-demand access to AWS compliance and security documents)
+
+20. Which AWS service is used for serverless applications and real-time data streaming?
+    a) Amazon Kinesis
+    b) Amazon API Gateway
+    c) AWS Lambda
+    d) All of the above
+    (Correct answer: d) All of the above)
+
+
+21. What is the purpose of AWS Security Hub?
+    a) To provide a centralized view of your security and compliance posture in AWS
+    b) To track user activity and API usage
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: a) To provide a centralized view of your security and compliance posture in AWS)
+
+22. Which AWS service is used for managing and automating software deployments?
+    a) AWS CodeCommit
+    b) AWS CodeBuild
+    c) AWS CodePipeline
+    d) AWS CodeStar
+    (Correct answer: c) AWS CodePipeline)
+
+23. What is the purpose of AWS X-Ray?
+    a) To analyze and debug distributed applications
+    b) To track user activity and API usage
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: a) To analyze and debug distributed applications)
+
+24. Which AWS service is used for managing and scaling databases in the cloud?
+    a) Amazon RDS (Relational Database Service)
+    b) Amazon DynamoDB
+    c) Amazon Redshift
+    d) Amazon ElastiCache
+    (Correct answer: a) Amazon RDS (Relational Database Service))
+
+25. What is the purpose of AWS Glue?
+    a) To prepare and load data for analytics
+    b) To track user activity and API usage
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: a) To prepare and load data for analytics)
+
+
+
+26. Which AWS service is used for managing and automating backups?
+    a) AWS Backup
+    b) AWS Storage Gateway
+    c) Amazon S3 Glacier
+    d) AWS Snowball
+    (Correct answer: a) AWS Backup)
+
+27. What is the purpose of AWS Shield?
+    a) To protect against DDoS (Distributed Denial of Service) attacks
+    b) To track user activity and API usage
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: a) To protect against DDoS (Distributed Denial of Service) attacks)
+
+28. Which AWS service is used for managing and scaling search engines?
+    a) Amazon Elasticsearch Service
+    b) Amazon CloudSearch
+    c) Amazon RDS
+    d) Amazon DynamoDB
+    (Correct answer: a) Amazon Elasticsearch Service)
+
+29. What is the purpose of AWS Certificate Manager (ACM)?
+    a) To create, manage, and deploy SSL/TLS certificates
+    b) To track user activity and API usage
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: a) To create, manage, and deploy SSL/TLS certificates)
+
+30. Which AWS service is used for managing and deploying machine learning models?
+    a) Amazon SageMaker
+    b) Amazon Lex
+    c) Amazon Polly
+    d) Amazon Rekognition
+    (Correct answer: a) Amazon SageMaker)
+
+
+31. What is the purpose of AWS Cost Explorer?
+    a) To visualize, understand, and manage your AWS costs and usage
+    b) To track user activity and API usage
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: a) To visualize, understand, and manage your AWS costs and usage)
+
+32. Which AWS service is used for managing and scaling block and file storage?
+    a) Amazon EBS (Elastic Block Store)
+    b) Amazon EFS (Elastic File System)
+    c) Amazon S3 (Simple Storage Service)
+    d) Amazon Glacier
+    (Correct answer: a) Amazon EBS (Elastic Block Store) and b) Amazon EFS (Elastic File System))
+
+33. What is the purpose of AWS CloudHSM?
+    a) To create and manage encryption keys
+    b) To provide a dedicated, single-tenant hardware security module (HSM) for key management
+    c) To track user activity and API usage
+    d) To manage network traffic
+    (Correct answer: b) To provide a dedicated, single-tenant hardware security module (HSM) for key management)
+
+34. Which AWS service is used for managing and deploying serverless applications?
+    a) AWS Lambda
+    b) AWS Fargate
+    c) Amazon ECS (Elastic Container Service)
+    d) Amazon EKS (Elastic Kubernetes Service)
+    (Correct answer: a) AWS Lambda)
+
+35. What is the purpose of AWS Step Functions?
+    a) To coordinate multiple AWS services into serverless workflows
+    b) To track user activity and API usage
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: a) To coordinate multiple AWS services into serverless workflows)
+
+
+
+36. Which AWS service is used for managing and scaling in-memory data stores?
+    a) Amazon ElastiCache for Redis
+    b) Amazon ElastiCache for Memcached
+    c) Amazon DynamoDB
+    d) Both a) and b)
+    (Correct answer: d) Both a) and b))
+
+37. What is the purpose of AWS Systems Manager?
+    a) To automate operational tasks across AWS resources
+    b) To track user activity and API usage
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: a) To automate operational tasks across AWS resources)
+
+38. Which AWS service is used for managing and deploying serverless APIs?
+    a) AWS Lambda
+    b) Amazon API Gateway
+    c) AWS Step Functions
+    d) Both a) and b)
+    (Correct answer: d) Both a) and b))
+
+39. What is the purpose of AWS CodeBuild?
+    a) To store and manage code in the cloud
+    b) To build and test code in the cloud
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: b) To build and test code in the cloud)
+
+40. Which AWS service is used for managing and scaling data lakes?
+    a) Amazon S3 (Simple Storage Service)
+    b) Amazon EMR (Elastic MapReduce)
+    c) Amazon Redshift
+    d) Both a) and b)
+    (Correct answer: d) Both a) and b))
+
+
+
+41. What is the purpose of AWS AppSync?
+    a) To synchronize data between AWS resources
+    b) To develop and deploy serverless GraphQL APIs
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: b) To develop and deploy serverless GraphQL APIs)
+
+42. Which AWS service is used for managing and scaling object storage?
+    a) Amazon S3 (Simple Storage Service)
+    b) Amazon EBS (Elastic Block Store)
+    c) Amazon EFS (Elastic File System)
+    d) Amazon Glacier
+    (Correct answer: a) Amazon S3 (Simple Storage Service))
+
+43. What is the purpose of AWS Managed Microsoft AD?
+    a) To create and manage a Microsoft Active Directory in the cloud
+    b) To track user activity and API usage
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: a) To create and manage a Microsoft Active Directory in the cloud)
+
+44. Which AWS service is used for managing and deploying virtual desktops and applications?
+    a) Amazon WorkSpaces
+    b) Amazon WorkDocs
+    c) Amazon WorkMail
+    d) Amazon QuickSight
+    (Correct answer: a) Amazon WorkSpaces)
+
+45. What is the purpose of AWS DataSync?
+    a) To automate the transfer of data between on-premises storage and AWS
+    b) To track user activity and API usage
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: a) To automate the transfer of data between on-premises storage and AWS)
+
+
+
+46. Which AWS service is used for managing and scaling message-based applications?
+    a) Amazon SQS (Simple Queue Service)
+    b) Amazon SNS (Simple Notification Service)
+    c) Amazon MQ
+    d) Both a) and b)
+    (Correct answer: d) Both a) and b))
+
+47. What is the purpose of AWS CloudFormation?
+    a) To create and manage AWS resources using templates
+    b) To track user activity and API usage
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: a) To create and manage AWS resources using templates)
+
+48. Which AWS service is used for managing and deploying business intelligence (BI) dashboards?
+    a) Amazon QuickSight
+    b) Amazon CloudSearch
+    c) Amazon Elasticsearch Service
+    d) Amazon Kinesis
+    (Correct answer: a) Amazon QuickSight)
+
+49. What is the purpose of AWS Organizations?
+    a) To centrally manage and govern multiple AWS accounts
+    b) To track user activity and API usage
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: a) To centrally manage and govern multiple AWS accounts)
+
+50. Which AWS service is used for managing and scaling batch processing jobs?
+    a) AWS Batch
+    b) AWS Lambda
+    c) AWS Step Functions
+    d) Amazon ECS (Elastic Container Service)
+    (Correct answer: a) AWS Batch)
+
+
+
+51. What is the purpose of AWS Fargate?
+    a) To deploy and manage serverless containers
+    b) To track user activity and API usage
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: a) To deploy and manage serverless containers)
+
+52. Which AWS service is used for managing and scaling network connectivity?
+    a) Amazon VPC (Virtual Private Cloud)
+    b) Amazon Route 53
+    c) AWS Direct Connect
+    d) Both a) and b)
+    (Correct answer: d) Both a) and b))
+
+53. What is the purpose of AWS CodeCommit?
+    a) To store and manage code in the cloud
+    b) To build and test code in the cloud
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: a) To store and manage code in the cloud)
+
+54. Which AWS service is used for managing and scaling streaming data processing?
+    a) Amazon Kinesis Data Streams
+    b) Amazon Kinesis Data Firehose
+    c) Amazon Kinesis Data Analytics
+    d) Both a) and c)
+    (Correct answer: d) Both a) and c))
+
+55. What is the purpose of AWS Ground Station?
+    a) To manage and control satellite communications
+    b) To track user activity and API usage
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: a) To manage and control satellite communications)
+
+
+
+56. Which AWS service is used for managing and scaling Internet of Things (IoT) applications?
+    a) AWS IoT Core
+    b) AWS IoT Greengrass
+    c) AWS IoT Analytics
+    d) Both a) and b)
+    (Correct answer: d) Both a) and b))
+
+57. What is the purpose of Amazon Connect?
+    a) To deploy and manage cloud-based contact centers
+    b) To track user activity and API usage
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: a) To deploy and manage cloud-based contact centers)
+
+58. Which AWS service is used for managing and scaling machine learning (ML) model training?
+    a) Amazon SageMaker
+    b) Amazon Lex
+    c) Amazon Polly
+    d) Amazon Rekognition
+    (Correct answer: a) Amazon SageMaker)
+
+59. What is the purpose of AWS Lake Formation?
+    a) To build, secure, and manage data lakes
+    b) To track user activity and API usage
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: a) To build, secure, and manage data lakes)
+
+60. Which AWS service is used for managing and scaling video streaming and processing?
+    a) Amazon Elastic Transcoder
+    b) AWS Elemental MediaConvert
+    c) AWS Elemental MediaLive
+    d) Both a) and b)
+    (Correct answer: d) Both a) and b))
+
+
+
+61. What is the purpose of AWS Outposts?
+    a) To extend AWS services and infrastructure to on-premises environments
+    b) To track user activity and API usage
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: a) To extend AWS services and infrastructure to on-premises environments)
+
+62. Which AWS service is used for managing and scaling virtual private servers (VPServers)?
+    a) Amazon EC2 (Elastic Compute Cloud)
+    b) Amazon Lightsail
+    c) AWS Elastic Beanstalk
+    d) Both a) and b)
+    (Correct answer: d) Both a) and b))
+
+63. What is the purpose of AWS DeepRacer?
+    a) To learn and experiment with reinforcement learning (RL)
+    b) To track user activity and API usage
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: a) To learn and experiment with reinforcement learning (RL))
+
+64. Which AWS service is used for managing and scaling data warehousing?
+    a) Amazon Redshift
+    b) Amazon RDS (Relational Database Service)
+    c) Amazon DynamoDB
+    d) Amazon ElastiCache
+    (Correct answer: a) Amazon Redshift)
+
+65. What is the purpose of AWS Transfer Family?
+    a) To securely transfer files to and from AWS
+    b) To track user activity and API usage
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: a) To securely transfer files to and from AWS)
+
+
+66. Which AWS service is used for managing and scaling key-value and document databases?
+    a) Amazon DynamoDB
+    b) Amazon RDS (Relational Database Service)
+    c) Amazon ElastiCache
+    d) Amazon Redshift
+    (Correct answer: a) Amazon DynamoDB)
+
+67. What is the purpose of AWS App Mesh?
+    a) To manage and control microservices communication
+    b) To track user activity and API usage
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: a) To manage and control microservices communication)
+
+68. Which AWS service is used for managing and scaling in-memory caching?
+    a) Amazon DynamoDB
+    b) Amazon ElastiCache for Redis
+    c) Amazon ElastiCache for Memcached
+    d) Both b) and c)
+    (Correct answer: d) Both b) and c))
+
+69. What is the purpose of AWS WAF (Web Application Firewall)?
+    a) To protect web applications from common exploits and attacks
+    b) To track user activity and API usage
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: a) To protect web applications from common exploits and attacks)
+
+70. Which AWS service is used for managing and scaling data ingestion and processing?
+    a) Amazon Kinesis Data Streams
+    b) Amazon Kinesis Data Firehose
+    c) Amazon Kinesis Data Analytics
+    d) All of the above
+    (Correct answer: d) All of the above)
+
+
+71. What is the purpose of AWS Data Exchange?
+    a) To securely find, subscribe to, and use third-party data in the cloud
+    b) To track user activity and API usage
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: a) To securely find, subscribe to, and use third-party data in the cloud)
+
+72. Which AWS service is used for managing and scaling machine learning (ML) model inference?
+    a) Amazon SageMaker
+    b) Amazon Lex
+    c) Amazon Polly
+    d) Amazon Rekognition
+    (Correct answer: a) Amazon SageMaker)
+
+73. What is the purpose of AWS Ground Station?
+    a) To manage and control satellite communications
+    b) To track user activity and API usage
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: a) To manage and control satellite communications)
+
+74. Which AWS service is used for managing and scaling block storage for EC2 instances?
+    a) Amazon EBS (Elastic Block Store)
+    b) Amazon EFS (Elastic File System)
+    c) Amazon S3 (Simple Storage Service)
+    d) Amazon Glacier
+    (Correct answer: a) Amazon EBS (Elastic Block Store))
+
+75. What is the purpose of AWS IAM (Identity and Access Management)?
+    a) To centrally manage user identities and permissions
+    b) To track user activity and API usage
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: a) To centrally manage user identities and permissions)
+
+
+76. Which AWS service is used for managing and scaling file storage for EC2 instances and on-premises servers?
+    a) Amazon EBS (Elastic Block Store)
+    b) Amazon EFS (Elastic File System)
+    c) Amazon S3 (Simple Storage Service)
+    d) Amazon Glacier
+    (Correct answer: b) Amazon EFS (Elastic File System))
+
+77. What is the purpose of AWS Glue?
+    a) To extract, transform, and load (ETL) data for analytics
+    b) To track user activity and API usage
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: a) To extract, transform, and load (ETL) data for analytics)
+
+78. Which AWS service is used for managing and scaling data warehousing and business intelligence (BI) tools?
+    a) Amazon Redshift
+    b) Amazon QuickSight
+    c) Amazon Athena
+    d) All of the above
+    (Correct answer: d) All of the above)
+
+79. What is the purpose of AWS KMS (Key Management Service)?
+    a) To centrally manage and secure encryption keys
+    b) To track user activity and API usage
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: a) To centrally manage and secure encryption keys)
+
+80. Which AWS service is used for managing and scaling message-based applications and microservices?
+    a) Amazon SQS (Simple Queue Service)
+    b) Amazon SNS (Simple Notification Service)
+    c) Amazon MQ
+    d) Both a) and b)
+    (Correct answer: d) Both a) and b))
+
+
+81. What is the purpose of AWS Lambda?
+    a) To run serverless code in response to events
+    b) To track user activity and API usage
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: a) To run serverless code in response to events)
+
+82. Which AWS service is used for managing and scaling batch processing and high-performance computing (HPC) workloads?
+    a) AWS Batch
+    b) AWS Lambda
+    c) AWS Step Functions
+    d) Amazon ECS (Elastic Container Service)
+    (Correct answer: a) AWS Batch)
+
+83. What is the purpose of AWS OpsWorks?
+    a) To automate the configuration and deployment of applications
+    b) To track user activity and API usage
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: a) To automate the configuration and deployment of applications)
+
+84. Which AWS service is used for managing and scaling object storage for unstructured data?
+    a) Amazon EBS (Elastic Block Store)
+    b) Amazon EFS (Elastic File System)
+    c) Amazon S3 (Simple Storage Service)
+    d) Amazon Glacier
+    (Correct answer: c) Amazon S3 (Simple Storage Service))
+
+85. What is the purpose of AWS Route 53?
+    a) To manage and route domain names and IP addresses
+    b) To track user activity and API usage
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: a) To manage and route domain names and IP addresses)
+
+
+86. Which AWS service is used for managing and scaling relational databases?
+    a) Amazon RDS (Relational Database Service)
+    b) Amazon DynamoDB
+    c) Amazon ElastiCache
+    d) Amazon Redshift
+    (Correct answer: a) Amazon RDS (Relational Database Service))
+
+87. What is the purpose of AWS Secrets Manager?
+    a) To centrally manage, rotate, and retrieve secrets and credentials
+    b) To track user activity and API usage
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: a) To centrally manage, rotate, and retrieve secrets and credentials)
+
+88. Which AWS service is used for managing and scaling serverless APIs and web applications?
+    a) AWS Lambda
+    b) Amazon API Gateway
+    c) AWS AppSync
+    d) Both a) and b)
+    (Correct answer: d) Both a) and b))
+
+89. What is the purpose of AWS Shield?
+    a) To protect against DDoS (Distributed Denial of Service) attacks
+    b) To track user activity and API usage
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: a) To protect against DDoS (Distributed Denial of Service) attacks)
+
+90. Which AWS service is used for managing and scaling virtual private networks (VPNs) and dedicated network connections?
+    a) Amazon VPC (Virtual Private Cloud)
+    b) AWS Direct Connect
+    c) AWS VPN
+    d) Both b) and c)
+    (Correct answer: d) Both b) and c))
+
+
+91. What is the purpose of AWS Step Functions?
+    a) To coordinate and manage serverless workflows
+    b) To track user activity and API usage
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: a) To coordinate and manage serverless workflows)
+
+92. Which AWS service is used for managing and scaling streaming data processing and analytics?
+    a) Amazon Kinesis Data Streams
+    b) Amazon Kinesis Data Firehose
+    c) Amazon Kinesis Data Analytics
+    d) All of the above
+    (Correct answer: d) All of the above)
+
+93. What is the purpose of AWS Systems Manager?
+    a) To manage and automate system configurations and maintenance
+    b) To track user activity and API usage
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: a) To manage and automate system configurations and maintenance)
+
+94. Which AWS service is used for managing and scaling video streaming and processing?
+    a) Amazon Elastic Transcoder
+    b) AWS Elemental MediaConvert
+    c) AWS Elemental MediaLive
+    d) Both a) and b)
+    (Correct answer: d) Both a) and b))
+
+95. What is the purpose of AWS X-Ray?
+    a) To analyze and debug serverless and distributed applications
+    b) To track user activity and API usage
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: a) To analyze and debug serverless and distributed applications)
+
+
+96. Which AWS service is used for managing and scaling machine learning (ML) model training and deployment?
+    a) Amazon SageMaker
+    b) Amazon Lex
+    c) Amazon Polly
+    d) Amazon Rekognition
+    (Correct answer: a) Amazon SageMaker)
+
+97. What is the purpose of AWS Certificate Manager (ACM)?
+    a) To centrally manage, deploy, and renew SSL/TLS certificates
+    b) To track user activity and API usage
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: a) To centrally manage, deploy, and renew SSL/TLS certificates)
+
+98. Which AWS service is used for managing and scaling data warehousing and SQL-based querying?
+    a) Amazon Redshift
+    b) Amazon RDS (Relational Database Service)
+    c) Amazon DynamoDB
+    d) Amazon ElastiCache
+    (Correct answer: a) Amazon Redshift)
+
+99. What is the purpose of AWS CloudTrail?
+    a) To monitor and troubleshoot AWS resources
+    b) To track and log AWS API calls and resource changes
+    c) To manage network traffic
+    d) To deploy and manage applications
+    (Correct answer: b) To track and log AWS API calls and resource changes)
+
+100. Which AWS service is used for managing and scaling serverless applications and microservices?
+    a) AWS Lambda
+    b) Amazon ECS (Elastic Container Service)
+    c) AWS Fargate
+    d) Both a) and c)
+    (Correct answer: d) Both a) and c))
+
