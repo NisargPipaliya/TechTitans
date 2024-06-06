@@ -1,0 +1,8 @@
+<html>
+<body>
+  <title>Ansible Playground</title>
+  <h1 align="center">Welcome to {{ inventory_hostname_short }}</h1>.   </br>
+  <p align="center">A simple Ansible stack example using Docker Compose.</p>  
+  <p align="center">Last updated on {{ ansible_date_time.date }}.</p>
+</body>
+</html>

@@ -1,0 +1,46 @@
+---
+- name: Install NGINX
+  package:
+    name: nginx
+    state: present
+  register: nginx
+
+- name: Get unnecessary files list
+  find:
+    path: /var/www/html/
+    hidden: yes
+    recurse: yes
+    file_type: any
+  register: files_list
+  when: nginx is changed
+
+- name:  Remove collected files
+  file:
+    path: "{{ item.path }}"
+    state: absent
+  with_items:
+    - "{{ files_list.files }}"
+  when: nginx is changed
+
+- name: Copy server template
+  template:
+    src: server
+    dest: /etc/nginx/sites-available/default
+
+- name: Create NGINX Symlink
+  file:
+    src: /etc/nginx/sites-available/default
+    dest: /etc/nginx/sites-enabled/default
+    state: link
+
+- name: Copy web template
+  template:
+    src: web
+    dest: /var/www/html/index.html
+  register: site_content
+
+- name: Reload NGINX
+  service:
+    name: nginx
+    state: reload
+  when: site_content is changed
