@@ -17,7 +17,7 @@ RUN sed -ri 's/UsePAM yes/#UsePAM yes/g' /etc/ssh/sshd_config
 # Copy keys
 # RUN mkdir /root/.ssh
 COPY ./keys/ansible_key.pub /root/.ssh/authorized_keys.pub
-RUN chmod 400 /root/.ssh/authorized_keys.pub
+RUN chmod 644 /root/.ssh/authorized_keys.pub
 
 # Expose port
 EXPOSE 22

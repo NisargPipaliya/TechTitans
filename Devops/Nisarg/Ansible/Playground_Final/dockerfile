@@ -1,0 +1,26 @@
+# Use an official Ubuntu base image
+FROM ubuntu:latest
+
+# Install SSH and Python for Ansible
+RUN apt-get update
+RUN apt-get install -y openssh-server python3
+
+# Configure SSH for key-based authentication
+RUN mkdir /var/run/sshd
+RUN echo 'root:ansible' | chpasswd 
+RUN sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config 
+RUN sed -i 's/#PasswordAuthentication yes/PasswordAuthentication no/' /etc/ssh/sshd_config 
+# RUN mkdir /root/.ssh
+
+# Copy the public key
+COPY ./id_ed25519.pub /root/.ssh/authorized_keys
+
+# Set the correct permissions for the SSH directory and keys
+RUN chmod 700 /root/.ssh 
+RUN chmod 600 /root/.ssh/authorized_keys
+
+# Expose the SSH port
+EXPOSE 22
+
+# Run the SSH server
+CMD ["/usr/sbin/sshd", "-D"]

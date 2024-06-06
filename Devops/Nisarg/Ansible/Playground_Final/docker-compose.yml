@@ -1,0 +1,7 @@
+services:
+  ansible_managed_node:
+    build: .
+    ports:
+      - "2222:22"
+    volumes:
+      - ./ansible_playground:/ansible
