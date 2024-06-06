@@ -1,0 +1,15 @@
+---
+- name: Update apt cache and install NGINX
+  apt:
+    name: nginx
+    state: latest
+    update_cache: yes
+
+- name: copy index.html
+  ansible.builtin.template: src=index.html dest=/usr/share/nginx/html/index.html
+
+## Copying Updated File
+- name: Copy Updated File
+  ansible.builtin.template: src=Updated_Index.html dest=/usr/share/nginx/html/index.html
+  notify:
+    - restart_nginx ## same as name of handler in playbook file

@@ -162,3 +162,193 @@ public class Solution {
 }
 ```
 
+### [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+
+```
+class Solution {
+    public int[] searchRange(int[] nums, int target) {
+        int f = floorIndex(nums, target, 0, nums.length -1);
+        int c = ceilIndex(nums, target, 0, nums.length -1);
+        int[] arr = {c, f};
+        return arr;
+    }
+    public int ceilIndex(int[] nums, int target, int l, int h){
+        if(l > h){
+            return -1;
+        }
+
+        int m = (l + h) / 2;
+        if(nums[m] == target){
+            int f = m;
+            int x = ceilIndex(nums, target, l, m-1);
+            if(x != -1){
+                return x;
+            }
+            return f;
+        }else if(nums[m] > target){
+            return ceilIndex(nums, target, l, m-1);
+        }else{
+            return ceilIndex(nums, target, m+1, h);
+        }
+    }
+
+    public int floorIndex(int[] nums, int target, int l, int h){
+        if(l > h){
+            return -1;
+        }
+
+        int m = (l + h) / 2;
+        if(nums[m] == target){
+            int f = m;
+            int x = floorIndex(nums, target, m+1, h);
+            if(x != -1){
+                return x;
+            }
+            return f;
+        }else if(nums[m] > target){
+            return floorIndex(nums, target, l, m-1);
+        }else{
+            return floorIndex(nums, target, m+1, h);
+        }
+    }
+}
+```
+
+### [Number of occurrence](https://www.geeksforgeeks.org/problems/number-of-occurrence2259/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=number-of-occurrence)
+
+```
+class Solution {
+    int count(int[] nums, int n, int target) {
+        // code here
+        int f = floorIndex(nums, target, 0, nums.length -1);
+        int c = ceilIndex(nums, target, 0, nums.length -1);
+        if(f == -1 && c == -1){
+            return 0;
+        }
+        return f-c+1;
+    }
+    
+    public int ceilIndex(int[] nums, int target, int l, int h){
+        if(l > h){
+            return -1;
+        }
+
+        int m = (l + h) / 2;
+        if(nums[m] == target){
+            int f = m;
+            int x = ceilIndex(nums, target, l, m-1);
+            if(x != -1){
+                return x;
+            }
+            return f;
+        }else if(nums[m] > target){
+            return ceilIndex(nums, target, l, m-1);
+        }else{
+            return ceilIndex(nums, target, m+1, h);
+        }
+    }
+
+    public int floorIndex(int[] nums, int target, int l, int h){
+        if(l > h){
+            return -1;
+        }
+
+        int m = (l + h) / 2;
+        if(nums[m] == target){
+            int f = m;
+            int x = floorIndex(nums, target, m+1, h);
+            if(x != -1){
+                return x;
+            }
+            return f;
+        }else if(nums[m] > target){
+            return floorIndex(nums, target, l, m-1);
+        }else{
+            return floorIndex(nums, target, m+1, h);
+        }
+    }
+}
+```
+
+### [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)
+
+```
+class Solution {
+    public int search(int[] nums, int n) {
+        int l = 0;
+        int h = nums.length -1;
+        int ans = -1;
+        while(l <= h){
+            int m = (l + h)/2;
+            if(nums[m] == n){
+                ans = m;
+            }
+            if(nums[l] <= nums[m]){
+                if(nums[l] <= n && nums[m] >= n){
+                    h = m-1;
+                } 
+                else {
+                    l = m + 1;
+                }
+            }else{
+                if(nums[m] <= n && nums[h] >= n){
+                    l = m + 1;
+                }
+                else {
+                    h = m -1 ;
+                }
+            }
+        }
+        return ans;
+    }
+}
+```
+
+
+### [81. Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/)
+
+```
+class Solution {
+    public boolean search(int[] nums, int n) {
+
+        int l = 0;
+        int h = nums.length -1;
+        int ans = -1;
+        while(l <= h){
+            int m = (l + h)/2;
+            if(nums[m] == n){
+                ans = m;
+            }
+
+            // Edge Case
+            if (nums[l] == nums[m] && nums[m] == nums[h]) {
+                l = l + 1;
+                h = h - 1;
+                continue;
+            }
+
+            if(nums[l] <= nums[m]){
+                if(nums[l] <= n && nums[m] >= n){
+                    h = m - 1;
+                } 
+                else {
+                    l = m + 1;
+                }
+            }else{
+
+                if(nums[m] <= n && nums[h] >= n){
+                    l = m + 1;
+                }
+                else {
+                    h = m - 1;
+                }
+            }
+        }
+        if(ans == -1){
+            return false;
+        }
+
+        return true;
+    }
+}
+```

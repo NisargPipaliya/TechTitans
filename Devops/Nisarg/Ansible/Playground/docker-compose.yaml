@@ -1,0 +1,7 @@
+services:
+  ansible-server:
+    image: ansi-new:latest
+    ports: 
+      - 5678:22
+    volumes:
+      - ./ServerVolume:/home

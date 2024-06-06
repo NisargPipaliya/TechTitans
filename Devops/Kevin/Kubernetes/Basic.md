@@ -397,4 +397,70 @@ kubectl port-forward deployment/prometheus-grafana 3000
 kubectl port-forward prometheus-prometheus-kube-prometheus-prometheus-0 9090
 ```
 
-  
+---
+Now we are going to monitor mongodb-deployment
+### mongodb-deployment.yaml
+```
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mongodb-depl
+  labels:
+    app: mongodb
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mongodb
+  template:
+    metadata:
+      labels:
+        app: mongodb
+    spec:
+      containers:
+      - name: mongodb
+        image: mongo
+        ports:
+        - containerPort: 27017
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: mongodb-service
+spec:
+  selector:
+    app: mongodb
+  ports:
+    - protocol: TCP
+      port: 27017
+      targetPort: 27017
+
+```
+
+For monitoring any application like mongodb, mysql, postgres etc. we have to use exporter
+
+Work of Exproter
+- It collects the metrics data from application. 
+- converts it to data understand by promethes means it expose the '/metrics' endpoint so that prometheus cascrap it.
+- [Link for finding the exporter](https://prometheus.io/docs/instrumenting/exporters/)
+
+We can write al the configuration file for the exporter and service and all the other stuf which is required or we can search for helm chart
+
+### mongodb-exporter-values.yaml
+```
+mongodb:
+  uri: "mongodb://mongodb-service:27017"
+
+serviceMonitor:
+  additionalLabels: 
+    release: prometheus
+  enabled: true
+
+```
+
+### Helm command for install the mongodb-export
+```
+helm install mongodb-exporter prometheus-community/prometheus-mongodb-exporter -f .\mongodb-exporter-values.yaml
+```
