@@ -4,4 +4,4 @@ services:
     ports:
       - "2222:22"
     volumes:
-      - ./ansible_playground:/ansible
+      - ./ansible_playground:/root/demo
