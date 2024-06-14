@@ -1,6 +1,8 @@
 package org.example.jobms.job.Impl;
 
 import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
+import io.github.resilience4j.ratelimiter.annotation.RateLimiter;
+import io.github.resilience4j.retry.annotation.Retry;
 import org.example.jobms.job.Job;
 import org.example.jobms.job.JobRepo;
 import org.example.jobms.job.JobService;
@@ -24,6 +26,7 @@ public class JobServiceImpl implements JobService {
 //    String reviewUrl = "http://ReviewMS:8083/reviews?companyId=";
     private final CompanyClient companyClient;
     private final ReviewClient reviewClient;
+    int attempts = 0;
     public JobServiceImpl(JobRepo repo,CompanyClient companyClient,ReviewClient reviewClient){
         this.jobrepo = repo;
 //        this.restTemplate = rt;
@@ -44,8 +47,11 @@ public class JobServiceImpl implements JobService {
     }
 
     @Override
-    @CircuitBreaker(name = "companyBreaker")
+//    @CircuitBreaker(name = "companyBreaker", fallbackMethod = "companyBreakerFallback")
+//    @Retry(name = "companyBreaker",fallbackMethod = "companyBreakerFallback")
+    @RateLimiter(name = "companyBreaker",fallbackMethod = "companyBreakerFallback")
     public List<JobDTO> findAll() {
+        System.out.println("Attempts: " + attempts++);
         List<Job> jobs = jobrepo.findAll();
         List<JobDTO> jobDTOS = new ArrayList<>();
 
@@ -58,6 +64,12 @@ public class JobServiceImpl implements JobService {
         return jobDTOS;
     }
 
+    public List<String> companyBreakerFallback(Exception e){
+        List<String> list = new ArrayList<>();
+        list.add("Boku wa saikyo desu.");
+        list.add(e.getMessage());
+        return list;
+    }
     @Override
     @CircuitBreaker(name = "companyBreaker")
     public JobDTO getJobById(Long Id) {

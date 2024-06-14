@@ -9,6 +9,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/companies")
 public class CompanyController {
+
     private CompanyService companyService;
     CompanyController(CompanyService companyService){
         this.companyService = companyService;

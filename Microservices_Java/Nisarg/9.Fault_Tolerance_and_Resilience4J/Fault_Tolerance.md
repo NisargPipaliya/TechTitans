@@ -57,3 +57,16 @@
 - CircuitBreaker
     - Used to prevent a network or service failure from cascading to other services.
     - Circuit breaker 'Trips' or opens and prevent further call to that service.
+
+---
+## Rate Limiting
+- A Technique for limiting network traffic.
+- Importance:
+    - Prevent Abuse
+    - Resource Allocation
+    - Cost Management is app is deployed on cloud.
+- Use Cases:
+    - APIs
+    - Web Scrapping
+    - Prevent Brute force login attacks
+    - Avoid DoS/DDoS
