@@ -13,7 +13,7 @@ RUN sed -i 's/#PasswordAuthentication yes/PasswordAuthentication no/' /etc/ssh/s
 # RUN mkdir /root/.ssh
 
 # Copy the public key
-COPY ./id_ed25519.pub /root/.ssh/authorized_keys
+COPY ./new_key.pub /root/.ssh/authorized_keys
 
 # Set the correct permissions for the SSH directory and keys
 RUN chmod 700 /root/.ssh 

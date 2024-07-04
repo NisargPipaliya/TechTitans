@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa9aed1b-2b78-4b77-b51d-60406634bd58" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../CompanyMS/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CompanyMS/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReviewMS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ReviewMS/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Devops/Nisarg/Ansible/1.WhyAutomation.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Devops/Nisarg/Ansible/1.WhyAutomation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Devops/Nisarg/Ansible/2.Intro_To_Ansible.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Devops/Nisarg/Ansible/2.Intro_To_Ansible.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Devops/Nisarg/Ansible/Playground_Final/ansible_project/hosts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Devops/Nisarg/Ansible/Playground_Final/ansible_project/hosts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Devops/Nisarg/Ansible/Playground_Final/dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Devops/Nisarg/Ansible/Playground_Final/dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Devops/Nisarg/Ansible/Playground_Final/id_ed25519" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Devops/Nisarg/Ansible/Playground_Final/id_ed25519.pub" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,10 +20,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -49,7 +52,8 @@
     "Spring Boot.ConfigServerApplication.executor": "Run",
     "Spring Boot.JobMsApplication.executor": "Run",
     "Spring Boot.ReviewMsApplication.executor": "Run",
-    "git-widget-placeholder": "112-nisarg-learn-ansible",
+    "Spring Boot.ServiceRegistryApplication.executor": "Run",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "E:/TechTitans/TechTitans/Microservices_Java/Nisarg/APP/ServiceRegistry",
     "node.js.detected.package.eslint": "true",
@@ -158,18 +162,18 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ApiGatewayApplication" />
-        <item itemvalue="Spring Boot.ConfigServerApplication" />
-        <item itemvalue="Spring Boot.ReviewMsApplication" />
         <item itemvalue="Spring Boot.CompanyMsApplication" />
+        <item itemvalue="Spring Boot.ReviewMsApplication" />
+        <item itemvalue="Spring Boot.ConfigServerApplication" />
+        <item itemvalue="Spring Boot.ApiGatewayApplication" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
-        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
       </set>
     </attachedChunks>
   </component>
@@ -184,6 +188,7 @@
       <workItem from="1715678378576" duration="920000" />
       <workItem from="1716891551713" duration="44000" />
       <workItem from="1716891659011" duration="1095000" />
+      <workItem from="1719897961684" duration="1413000" />
     </task>
     <servers />
   </component>
