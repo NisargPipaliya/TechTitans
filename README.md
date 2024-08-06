@@ -93,3 +93,15 @@ Automate your infrastructure with Ansible, a powerful open-source tool for provi
 - 📚 [Ansible Docs](https://docs.ansible.com/) [![Ansible Docs](https://img.shields.io/badge/Ansible-Docs-EE0000?style=flat-square&logo=ansible&logoColor=white)](https://docs.ansible.com/)
 
 Feel free to explore and expand your tech horizons! 🌟
+
+---
+## Contributors
+
+<a href="https://github.com/NisargPipaliya/TechTitans/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=NisargPipaliya/TechTitans" />
+</a>
+
+
+---
+
+TechTitans &copy;
