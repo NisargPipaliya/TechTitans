@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2473463e-f037-4fcf-9e14-d3eacb511b68" name="Changes" comment="Fixes" />
+    <list default="true" id="2473463e-f037-4fcf-9e14-d3eacb511b68" name="Changes" comment="Fixes">
+      <change afterPath="$PROJECT_DIR$/../../../../DBMS_Cheatsheet_withLinks_compressed.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobMS/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JobMS/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobMS/src/main/java/org/example/jobms/job/Impl/JobServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JobMS/src/main/java/org/example/jobms/job/Impl/JobServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobMS/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../JobMS/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JobMS/target/classes/org/example/jobms/job/Impl/JobServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JobMS/target/classes/org/example/jobms/job/Impl/JobServiceImpl.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,13 +46,19 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2gS9EljjGZfmNgyHiCH9v4CHqyp" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+
+
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
     &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
     &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
@@ -60,7 +72,11 @@
     &quot;Spring Boot.ServiceRegistryApplication.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;98-nisarg-learn-microservice-part-2&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+
+    &quot;last_opened_file_path&quot;: &quot;E:/TechTitans/TechTitans/Microservices_Java/Nisarg/APP/CompanyMS&quot;,
+
     &quot;last_opened_file_path&quot;: &quot;E:/TechTitans/TechTitans/Microservices_Java/Nisarg/APP/APIGateway&quot;,
+
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -164,6 +180,17 @@
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringProfilesService">
+    <option name="activeProfiles">
+      <map>
+        <entry key="APIGateway" value="Project" />
+        <entry key="CompanyMS" value="Project" />
+        <entry key="JobMS" value="Project" />
+        <entry key="ReviewMS" value="Project" />
+        <entry key="ServiceRegistry" value="Project" />
+      </map>
+    </option>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="2473463e-f037-4fcf-9e14-d3eacb511b68" name="Changes" comment="" />
@@ -180,7 +207,13 @@
       <workItem from="1716016687537" duration="2555000" />
       <workItem from="1716027939982" duration="4010000" />
       <workItem from="1716101169566" duration="10639000" />
+
+      <workItem from="1716124647727" duration="790000" />
+      <workItem from="1716474853876" duration="2640000" />
+      <workItem from="1716557532678" duration="5000" />
+
       <workItem from="1716635372912" duration="4000" />
+
     </task>
     <task id="LOCAL-00001" summary="Fixes">
       <option name="closed" value="true" />
@@ -197,6 +230,7 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Fixes" />
     <option name="LAST_COMMIT_MESSAGE" value="Fixes" />
   </component>
@@ -205,7 +239,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../JobMS/src/main/java/org/example/jobms/job/Impl/JobServiceImpl.java</url>
-          <line>37</line>
+          <line>38</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
