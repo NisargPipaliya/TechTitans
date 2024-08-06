@@ -1,0 +1,8 @@
+---
+- name: Creates Directory
+  hosts: ansible_servers
+  tasks:
+    - name: File Creation
+      ansible.builtin.file:
+        path: ./new-demo-dir
+        state: directory

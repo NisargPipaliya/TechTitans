@@ -1,0 +1,7 @@
+all:
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
+  children:
+    web:
+      hosts:
+        ansible_playground_1:

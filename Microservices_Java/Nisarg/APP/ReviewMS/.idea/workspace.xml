@@ -55,7 +55,10 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+
+
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
     &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
     &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
@@ -69,7 +72,11 @@
     &quot;Spring Boot.ServiceRegistryApplication.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;98-nisarg-learn-microservice-part-2&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+
     &quot;last_opened_file_path&quot;: &quot;E:/TechTitans/TechTitans/Microservices_Java/Nisarg/APP/CompanyMS&quot;,
+
+    &quot;last_opened_file_path&quot;: &quot;E:/TechTitans/TechTitans/Microservices_Java/Nisarg/APP/APIGateway&quot;,
+
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -200,9 +207,13 @@
       <workItem from="1716016687537" duration="2555000" />
       <workItem from="1716027939982" duration="4010000" />
       <workItem from="1716101169566" duration="10639000" />
+
       <workItem from="1716124647727" duration="790000" />
       <workItem from="1716474853876" duration="2640000" />
       <workItem from="1716557532678" duration="5000" />
+
+      <workItem from="1716635372912" duration="4000" />
+
     </task>
     <task id="LOCAL-00001" summary="Fixes">
       <option name="closed" value="true" />

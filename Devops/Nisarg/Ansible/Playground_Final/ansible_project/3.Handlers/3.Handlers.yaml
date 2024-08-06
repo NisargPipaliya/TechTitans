@@ -1,0 +1,12 @@
+---
+- name: Example Ansible Playbook for Handlers
+  hosts: all
+  become: yes
+  roles:
+    - handlers
+  
+  handlers:
+    - name: restart_nginx
+      ansible.builtin.service:
+        name: nginx
+        state: restarted
