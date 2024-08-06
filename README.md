@@ -101,6 +101,15 @@ Feel free to explore and expand your tech horizons! 🌟
   <img src="https://contrib.rocks/image?repo=NisargPipaliya/TechTitans" />
 </a>
 
----
+
+## Star History
+
+<a href="https://star-history.com/#NisargPipaliya/TechTitans&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=NisargPipaliya/TechTitans&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=NisargPipaliya/TechTitans&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=NisargPipaliya/TechTitans&type=Date" />
+ </picture>
+</a>
 
 TechTitans &copy;
