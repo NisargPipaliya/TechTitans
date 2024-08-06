@@ -96,11 +96,9 @@ Feel free to explore and expand your tech horizons! 🌟
 
 ---
 ## Contributors
-
 <a href="https://github.com/NisargPipaliya/TechTitans/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=NisargPipaliya/TechTitans" />
 </a>
-
 ---
 
 TechTitans &copy;
