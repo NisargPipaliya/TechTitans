@@ -67,6 +67,8 @@ Welcome to the TechTitans repository, your one-stop destination for enriching re
 | Resource        | Link                                                                                                                                                           |
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Free Code Camp  | [![YouTube](https://img.shields.io/badge/YouTube-red?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=zTjRZNkhiEU)              |
+| Git Advanced    | [![YouTube](https://img.shields.io/badge/YouTube-red?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/qsTthZi23VE?si=YQDkL4F2QOB46ZTd)         |
+| Git Professional| [![YouTube](https://img.shields.io/badge/YouTube-red?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/Uszj_k0DGsg?si=LEBq334QQtIaoDlm)         |
 
 ## Python 🐍
 
