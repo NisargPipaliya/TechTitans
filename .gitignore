@@ -2,3 +2,7 @@
 ./Devops/Nisarg/techworld-js-docker-demo-app/*
 *.class
 README.pdf
+*.old.*
+*.docx
+*.txt
+Notes.md

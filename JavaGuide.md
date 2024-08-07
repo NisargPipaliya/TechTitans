@@ -1,4 +1,4 @@
-### Core Java Reference Material for Interview Preparation
+### Core Java RoadMap for Interview Preparation
 
 #### Core Concepts
 
@@ -38,7 +38,7 @@
    - Default and Static methods in Interfaces.
    - Optional class.
 
-### Java EE Reference Material for Interview Preparation
+### Java EE Roadmap for Interview Preparation
 
 1. **Java EE Basics**:
    - Overview: Java EE platform, Containers (Web and EJB containers).
@@ -63,7 +63,7 @@
    - Entity Manager: `EntityManager`, `PersistenceContext`.
    - JPQL (Java Persistence Query Language).
 
-### Spring Framework Reference Material for Interview Preparation
+### Spring Framework RoadMap for Interview Preparation
 
 1. **Spring Core**:
    - **IoC (Inversion of Control) Container**: ApplicationContext, BeanFactory.
@@ -79,7 +79,7 @@
    - Query Methods: Derived Query Methods, `@Query` Annotation.
    - Transactions: `@Transactional`.
 
-### Spring MVC Reference Material for Interview Preparation
+### Spring MVC RoadMap for Interview Preparation
 
 1. **Spring MVC Basics**:
    - **DispatcherServlet**: Front controller in Spring MVC.
@@ -101,7 +101,7 @@
    - `@ExceptionHandler`.
    - Global Exception Handling: `@ControllerAdvice`.
 
-### Spring Boot Reference Material for Interview Preparation
+### Spring Boot RoadMap for Interview Preparation
 
 1. **Spring Boot Basics**:
    - **Starter Projects**: Simplify dependency management.
