@@ -1,4 +1,0 @@
-Hii this is a test file to check working of docker volumes.
-Naruto
-Luffy
-Gojo
