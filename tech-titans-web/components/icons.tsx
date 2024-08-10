@@ -7,4 +7,7 @@ import { IoMoonOutline } from "react-icons/io5";
 // Books Icon
 import { FaBookReader } from "react-icons/fa";
 
-export { FaBookReader, IoSunnyOutline, IoMoonOutline };
+// Calendar Icon
+import { IoCalendarOutline } from "react-icons/io5";
+
+export { IoCalendarOutline, FaBookReader, IoSunnyOutline, IoMoonOutline };
