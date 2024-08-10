@@ -23,6 +23,12 @@ const Navbar: React.FC = () => {
           Home
         </Link>
         <Link
+          href="/posts"
+          className="content-center text-gray-700 dark:text-gray-300"
+        >
+          Posts
+        </Link>
+        <Link
           href="/about"
           className="content-center text-gray-700 dark:text-gray-300"
         >
