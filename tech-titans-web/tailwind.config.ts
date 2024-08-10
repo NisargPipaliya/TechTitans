@@ -65,10 +65,10 @@ const config = {
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
-          to: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "var(--radix-accordion-data-height)" },
         },
         "accordion-up": {
-          from: { height: "var(--radix-accordion-content-height)" },
+          from: { height: "var(--radix-accordion-data-height)" },
           to: { height: "0" },
         },
       },

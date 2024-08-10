@@ -8,7 +8,7 @@ const processSlugFields = <T extends { slug: string }>(data: T) => ({
 
 const posts = defineCollection({
   name: "Post",
-  pattern: "content/**/*.mdx",
+  pattern: "data/**/*.mdx",
   schema: s.object({
     slug: s.path(),
     title: s.string().max(80), // max length of 80 characters for title
@@ -20,7 +20,7 @@ const posts = defineCollection({
 });
 
 export default defineConfig({
-  root: "content",
+  root: "data",
   output: {
     data: ".velite",
     assets: "public/static",
