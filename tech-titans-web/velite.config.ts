@@ -16,6 +16,7 @@ const posts = defineCollection({
       description: s.string().max(500).optional(), // max length of 500 characters for description
       date: s.isodate(),
       published: s.boolean(), // basically for draft/publish
+      tags: s.array(s.string()).optional(),
       body: s.mdx(),
     })
     .transform(processSlugFields),

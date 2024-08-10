@@ -4,4 +4,4 @@ import getAllTags from "./get-all-tags";
 import getPostBySlug from "./get-post-by-slug";
 import sortTagsByCount from "./sort-tag-by-count";
 
-export {formatDate, sortPosts, getAllTags, sortTagsByCount, getPostBySlug};
+export { formatDate, sortPosts, getAllTags, sortTagsByCount, getPostBySlug };
