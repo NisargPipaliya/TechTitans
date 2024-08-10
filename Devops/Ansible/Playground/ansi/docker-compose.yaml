@@ -1,6 +1,6 @@
 services:
   ansible:
-    build: docker/
+    build: docker
     container_name: "ansible"
     command: "sleep infinity"
     links:
@@ -10,8 +10,8 @@ services:
       - ./keys/ansible_key:/root/.ssh/id_rsa:ro   
   playground:
     build:
-      context: docker/
-      dockerfile: Dockerfile_playground
+      context: docker
+      dockerfile: docker/Dockerfile_playground
     ports:
       - 80:80
     volumes:
