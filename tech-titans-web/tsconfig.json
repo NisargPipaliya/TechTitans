@@ -19,7 +19,7 @@
     ],
     "paths": {
       "@/*": ["./*"],
-      "#sites/content": ["./.velite"],
+      "#sites/content": ["./.velite"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

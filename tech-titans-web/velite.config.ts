@@ -8,19 +8,22 @@ const processSlugFields = <T extends { slug: string }>(data: T) => ({
 
 const posts = defineCollection({
   name: "Post",
-  pattern: "data/**/*.mdx",
-  schema: s.object({
-    slug: s.path(),
-    title: s.string().max(80), // max length of 80 characters for title
-    description: s.string().max(500).optional(), // max length of 500 characters for description
-    date: s.date(),
-    published: s.boolean(), // basically for draft/publish
-    body: s.mdx(),
-  }).transform(processSlugFields),
+  pattern: "posts/**/*.mdx",
+  schema: s
+    .object({
+      slug: s.path(),
+      title: s.string().max(80), // max length of 80 characters for title
+      description: s.string().max(500).optional(), // max length of 500 characters for description
+      date: s.isodate(),
+      published: s.boolean(), // basically for draft/publish
+      tags: s.array(s.string()).optional(),
+      body: s.mdx(),
+    })
+    .transform(processSlugFields),
 });
 
 export default defineConfig({
-  root: "data",
+  root: "content",
   output: {
     data: ".velite",
     assets: "public/static",
