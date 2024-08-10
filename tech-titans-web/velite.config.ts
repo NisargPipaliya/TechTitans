@@ -9,14 +9,16 @@ const processSlugFields = <T extends { slug: string }>(data: T) => ({
 const posts = defineCollection({
   name: "Post",
   pattern: "data/**/*.mdx",
-  schema: s.object({
-    slug: s.path(),
-    title: s.string().max(80), // max length of 80 characters for title
-    description: s.string().max(500).optional(), // max length of 500 characters for description
-    date: s.date(),
-    published: s.boolean(), // basically for draft/publish
-    body: s.mdx(),
-  }).transform(processSlugFields),
+  schema: s
+    .object({
+      slug: s.path(),
+      title: s.string().max(80), // max length of 80 characters for title
+      description: s.string().max(500).optional(), // max length of 500 characters for description
+      date: s.date(),
+      published: s.boolean(), // basically for draft/publish
+      body: s.mdx(),
+    })
+    .transform(processSlugFields),
 });
 
 export default defineConfig({
