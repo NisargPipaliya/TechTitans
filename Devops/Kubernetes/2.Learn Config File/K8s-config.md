@@ -42,6 +42,7 @@ spec:
         # Used by service to forward requests from other service.
 
 ```
+---
 
 ## Connecting Components
 - Connection is made using Labels, selectors and ports.
@@ -57,3 +58,9 @@ spec:
 ![alt text](image-2.png)
 
 ![alt text](image-4.png)
+
+---
+## Checking IP Address of the pods
+- For this we can get information of the service using `kubectl describe service <service-name>`
+- This command would print information like, service name, namespace, labels, type, IP, targetPort, Endpoints(i.e. IP of Pods)
+- To check IP of pods use `kubectl get pods -o wide` command which uses `-o` (output) flag with value "**wide**"
