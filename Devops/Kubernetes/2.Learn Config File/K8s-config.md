@@ -64,3 +64,7 @@ spec:
 - For this we can get information of the service using `kubectl describe service <service-name>`
 - This command would print information like, service name, namespace, labels, type, IP, targetPort, Endpoints(i.e. IP of Pods)
 - To check IP of pods use `kubectl get pods -o wide` command which uses `-o` (output) flag with value "**wide**"
+---
+
+## The Thrid Part: Status
+- As discussed above status will be injected by k8s so to read it we will write out our active deployment into a yaml file using `kubectl get deployment <deployment-name> -o yaml > depl-with-status.yaml`
